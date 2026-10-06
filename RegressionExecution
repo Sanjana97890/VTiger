@@ -1,0 +1,11 @@
+<suite parallel="classes" name="Suite">
+<test thread-count="5" parallel="classes" name="Test">
+<classes>
+<class name="testCaseRepo.TC_003"/>
+<class name="testCaseRepo.TC_002"/>
+<class name="testCaseRepo.TC_001"/>
+</classes>
+</test>
+<!--  Test  -->
+</suite>
+<!--  Suite  -->

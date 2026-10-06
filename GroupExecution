@@ -1,0 +1,18 @@
+<suite name="Suite">
+<groups>
+<run>
+<include name="Smoke"/>
+<include name="Regression"/>
+</run>
+</groups>
+<test thread-count="5" name="Test">
+<classes>
+<class name="testCaseRepo.TC_003"/>
+<class name="testCaseRepo.TC_002"/>
+<class name="testCaseRepo.TC_001"/>
+<class name="testCaseRepo.TC_004"/>
+</classes>
+</test>
+<!--  Test  -->
+</suite>
+<!--  Suite  -->
